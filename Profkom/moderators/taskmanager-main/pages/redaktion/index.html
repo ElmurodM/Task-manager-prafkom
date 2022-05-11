@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head><base href="../../">
+		<title>Tasks</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+		<link href="assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/custm.css" rel="stylesheet" type="text/css" />
+	
+	</head>
+	<body id="kt_body" class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled toolbar-fixed aside-enabled aside-fixed" style="--kt-toolbar-height:55px;--kt-toolbar-height-tablet-and-mobile:55px">
+		<div class="d-flex flex-column flex-root">
+			<div class="page d-flex flex-row flex-column-fluid">
+				<div id="kt_aside" class="aside aside-dark aside-hoverable" data-kt-drawer="true" data-kt-drawer-name="aside" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'200px', '300px': '250px'}" data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_aside_mobile_toggle">
+					<div class="aside-logo flex-column-auto" id="kt_aside_logo">
+						<a href="index.html">
+							<img alt="Logo" src="assets/media/logos/logo-1-dark.svg" class="logo" style="height: 45px;" />
+						</a>
+						<div id="kt_aside_toggle" class="btn btn-icon w-auto px-0 btn-active-color-primary aside-toggle" data-kt-toggle="true" data-kt-toggle-state="active" data-kt-toggle-target="body" data-kt-toggle-name="aside-minimize">
+							<span class="svg-icon svg-icon-1 rotate-180">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path opacity="0.5" d="M14.2657 11.4343L18.45 7.25C18.8642 6.83579 18.8642 6.16421 18.45 5.75C18.0358 5.33579 17.3642 5.33579 16.95 5.75L11.4071 11.2929C11.0166 11.6834 11.0166 12.3166 11.4071 12.7071L16.95 18.25C17.3642 18.6642 18.0358 18.6642 18.45 18.25C18.8642 17.8358 18.8642 17.1642 18.45 16.75L14.2657 12.5657C13.9533 12.2533 13.9533 11.7467 14.2657 11.4343Z" fill="black" />
+									<path d="M8.2657 11.4343L12.45 7.25C12.8642 6.83579 12.8642 6.16421 12.45 5.75C12.0358 5.33579 11.3642 5.33579 10.95 5.75L5.40712 11.2929C5.01659 11.6834 5.01659 12.3166 5.40712 12.7071L10.95 18.25C11.3642 18.6642 12.0358 18.6642 12.45 18.25C12.8642 17.8358 12.8642 17.1642 12.45 16.75L8.2657 12.5657C7.95328 12.2533 7.95328 11.7467 8.2657 11.4343Z" fill="black" />
+								</svg>
+							</span>
+						</div>
+					</div>
+					<div class="aside-menu flex-column-fluid">
+						<div class="hover-scroll-overlay-y my-5 my-lg-5" id="kt_aside_menu_wrapper" data-kt-scroll="true" data-kt-scroll-activate="{default: false, lg: true}" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_aside_logo, #kt_aside_footer" data-kt-scroll-wrappers="#kt_aside_menu" data-kt-scroll-offset="0">
+							<div class="menu menu-column menu-title-gray-800 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500" id="#kt_aside_menu" data-kt-menu="true">
+								
+								<div class="menu-item">
+									<a class="menu-link" href="pages/instagram/index.html">
+										<span class="menu-icon">
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+													<path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+												</svg>
+											</span>
+											
+										</span>
+										<span class="menu-title">Instagram</span>
+									</a>
+								</div>
+								<div class="menu-item">
+									<a class="menu-link" href="pages/tiktok/index.html">
+										<span class="menu-icon">
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+													<path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
+												</svg>
+											</span>
+										</span>
+										<span class="menu-title">TikTok</span>
+									</a>
+								</div>
+								<div class="menu-item">
+									<a class="menu-link active" href="pages/redaktion/index.html">
+										<span class="menu-icon">
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+												<path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+											  </svg>
+										</span>
+										<span class="menu-title">Редакция</span>
+									</a>
+								</div>
+								<div class="menu-item">
+									<a class="menu-link" href="pages/kvn/index.html">
+										<span class="menu-icon">
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+													<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+													<path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+												</svg>
+											</span>
+										</span>
+										<span class="menu-title">КВН</span>
+									</a>
+								</div>
+								<div class="menu-item">
+									<a class="menu-link" href="pages/dpk/index.html">
+										<span class="menu-icon">
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookshelf" viewBox="0 0 16 16">
+													<path d="M2.5 0a.5.5 0 0 1 .5.5V2h10V.5a.5.5 0 0 1 1 0v15a.5.5 0 0 1-1 0V15H3v.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 .5-.5zM3 14h10v-3H3v3zm0-4h10V7H3v3zm0-4h10V3H3v3z"/>
+												  </svg>
+											</span>
+										</span>
+										<span class="menu-title">ДПК</span>
+									</a>
+								</div>
+								<div class="menu-item">
+									<a class="menu-link" href="pages/volonter/index.html">
+										<span class="menu-icon">
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tag" viewBox="0 0 16 16">
+													<path d="M6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-1 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0z"/>
+													<path d="M2 1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2a1 1 0 0 1 1-1zm0 5.586 7 7L13.586 9l-7-7H2v4.586z"/>
+												  </svg>
+											</span>
+										</span>
+										<span class="menu-title">Волонтерский центр</span>
+									</a>
+								</div>
+								<div class="menu-item">
+									<a class="menu-link" href="pages/media/index.html">
+										<span class="menu-icon">
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-collection-play" viewBox="0 0 16 16">
+													<path d="M2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1zm2.765 5.576A.5.5 0 0 0 6 7v5a.5.5 0 0 0 .765.424l4-2.5a.5.5 0 0 0 0-.848l-4-2.5z"/>
+													<path d="M1.5 14.5A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zm13-1a.5.5 0 0 0 .5-.5V6a.5.5 0 0 0-.5-.5h-13A.5.5 0 0 0 1 6v7a.5.5 0 0 0 .5.5h13z"/>
+												</svg>
+											</span>
+										</span>
+										<span class="menu-title">Медиа</span>
+									</a>
+								</div>
+								<div class="menu-item">
+									<a class="menu-link" href="pages/design/index.html">
+										<span class="menu-icon">
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-image" viewBox="0 0 16 16">
+													<path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+													<path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z"/>
+												</svg>
+											</span>
+										</span>
+										<span class="menu-title">Дизайн</span>
+									</a>
+								</div>
+								<div class="menu-item">
+									<a class="menu-link" href="pages/art/index.html">
+										<span class="menu-icon">
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera" viewBox="0 0 16 16">
+													<path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"/>
+													<path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+												</svg>
+											</span>
+										</span>
+										<span class="menu-title">Проф. арт</span>
+									</a>
+								</div>
+								<div class="menu-item">
+									<a class="menu-link" href="pages/student/index.html">
+										<span class="menu-icon">
+											<span class="svg-icon svg-icon-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+													<path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+												  </svg>
+											</span>
+										</span>
+										<span class="menu-title">Студенческие отряды</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
+					<div id="kt_header" style="" class="header align-items-stretch">
+						<div class="container-fluid d-flex align-items-stretch justify-content-between">
+							<div class="d-flex align-items-center d-lg-none ms-n3 me-1" title="Show aside menu">
+								<div class="btn btn-icon btn-active-light-primary w-30px h-30px w-md-40px h-md-40px" id="kt_aside_mobile_toggle">
+									<span class="svg-icon svg-icon-2x mt-1">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+											<path d="M21 7H3C2.4 7 2 6.6 2 6V4C2 3.4 2.4 3 3 3H21C21.6 3 22 3.4 22 4V6C22 6.6 21.6 7 21 7Z" fill="black" />
+											<path opacity="0.3" d="M21 14H3C2.4 14 2 13.6 2 13V11C2 10.4 2.4 10 3 10H21C21.6 10 22 10.4 22 11V13C22 13.6 21.6 14 21 14ZM22 20V18C22 17.4 21.6 17 21 17H3C2.4 17 2 17.4 2 18V20C2 20.6 2.4 21 3 21H21C21.6 21 22 20.6 22 20Z" fill="black" />
+										</svg>
+									</span>
+								</div>
+							</div>
+							<div class="d-flex align-items-stretch justify-content-end flex-lg-grow-1">
+								<div class="d-flex align-items-stretch flex-shrink-0">
+									<div class="d-flex align-items-stretch flex-shrink-0">
+										
+										<div class="d-flex align-items-center ms-1 ms-lg-3" id="kt_header_user_menu_toggle">
+											<div class="cursor-pointer symbol symbol-30px symbol-md-40px" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
+												<img src="assets/media/avatars/150-26.jpg" alt="user" />
+											</div>
+											<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-primary fw-bold py-4 fs-6 w-275px" data-kt-menu="true">
+												<div class="menu-item px-3">
+													<div class="menu-content d-flex align-items-center px-3">
+														<div class="symbol symbol-50px me-5">
+															<img alt="Logo" src="assets/media/avatars/150-26.jpg" />
+														</div>
+														<div class="d-flex flex-column">
+															<div class="fw-bolder d-flex align-items-center fs-5">Иван Иванов</div>
+															<a href="#" class="fw-bold text-muted text-hover-primary fs-7">max@kt.com</a>
+														</div>
+													</div>
+												</div>
+												<div class="separator my-2"></div>
+												<div class="menu-item px-5">
+													<a href="account/overview.html" class="menu-link px-5">Профиль</a>
+												</div>
+												<div class="menu-item px-5">
+													<a href="pages/projects/list.html" class="menu-link px-5">
+														<span class="menu-text">Задания </span>
+														<span class="menu-badge">
+															<span class="badge badge-light-danger badge-circle fw-bolder fs-7">3</span>
+														</span>
+													</a>
+												</div>
+												<div class="separator my-2"></div>
+												
+												<div class="menu-item px-5">
+													<a href="authentication/flows/basic/sign-in.html" class="menu-link px-5">выйти</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+						<div class="container-fluid" id="index">
+							<div class="d-flex justify-content-between align-items-center mb-7">
+								<h1>Редакция</h1>
+								<button class="btn btn-success py-2" data-bs-target="#modalAddTask" data-bs-toggle="modal">Добавить задачу</button>
+							</div>
+							<div class="row">
+								<div class="col-4">
+									<div>
+										<h2>Задачи</h2>
+										<div class="card-body mt-5 p-9 bg-white">
+											<div class="fs-2hx fw-bolder"><a href="">Пост в Инсте</a></div>
+											<div class="fs-4 fw-bold text-gray-400 mb-4">Создать пост на тему новый год в Instagram</div>
+											<small>от <span>10.12.2021</span> до <span>11.12.2021</span></small>
+											<div class="d-flex justify-content-between">
+												<a href="#" class="btn btn-primary btn-sm me-3" data-bs-toggle="modal" data-bs-target="#kt_modal_view_users">Взять задачу</a>
+												<a href="#" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#kt_modal_users_search">Удалить задачу</a>
+											</div>
+										</div>
+										<div class="card-body mt-5 p-9 bg-white">
+											<div class="fs-2hx fw-bolder"><a href="">Пост в Инсте</a></div>
+											<div class="fs-4 fw-bold text-gray-400 mb-7">Создать пост на тему новый год в Instagram</div>
+											<small>от <span>10.12.2021</span> до <span>11.12.2021</span></small>
+											<div class="d-flex justify-content-between">
+												<a href="#" class="btn btn-primary btn-sm me-3" data-bs-toggle="modal" data-bs-target="#kt_modal_view_users">Взять задачу</a>
+												<a href="#" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#kt_modal_users_search">Удалить задачу</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-4">
+									<div>
+										<h2>В процессе</h2>
+										<div class="card-body mt-5 p-9 bg-white">
+											<div class="fs-2hx fw-bolder"><a href="">Пост в Инсте</a></div>
+											<div class="fs-4 fw-bold text-gray-400 mb-7">Создать пост на тему новый год в Instagram</div>
+											<small>от <span>10.12.2021</span> до <span>11.12.2021</span></small>
+											<div class="symbol-group symbol-hover mb-9 justify-content-center">
+												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="" data-bs-original-title="Melody Macy">
+													<img alt="Pic" src="assets/media/avatars/150-3.jpg">
+												</div>
+											</div>
+											<div class="d-flex justify-content-between">
+												<a href="#" class="btn btn-primary btn-sm me-3" data-bs-toggle="modal" data-bs-target="#kt_modal_view_users">Выполнить задачу</a>
+												<a href="#" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#kt_modal_users_search">Удалить задачу</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-4">
+									<div>
+										<h2>Выполненные</h2>
+										<div class="card-body mt-5 p-9 bg-white">
+											<div class="fs-2hx fw-bolder"><a href="">Пост в Инсте</a></div>
+											<div class="fs-4 fw-bold text-gray-400 mb-7">Создать пост на тему новый год в Instagram</div>
+											<small>от <span>10.12.2021</span> до <span>11.12.2021</span></small>
+											<div class="symbol-group symbol-hover mb-9 justify-content-center">
+												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="" data-bs-original-title="Melody Macy">
+													<img alt="Pic" src="assets/media/avatars/150-3.jpg">
+												</div>
+											</div>
+											<div class="d-flex justify-content-center">
+												<a href="#" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#kt_modal_users_search">Удалить задачу</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer py-4 d-flex flex-lg-column" id="kt_footer">
+						<div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-center">
+							<div class="text-dark order-2 order-md-1">
+								<span class="text-muted fw-bold me-1">2021©</span>
+								<a href="https://www.profstankin.ru/" target="_blank" class="text-gray-800 text-hover-primary">Профком СТАНКИН</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="kt_scrolltop" class="scrolltop" data-kt-scrolltop="true">
+			<span class="svg-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+					<rect opacity="0.5" x="13" y="6" width="13" height="2" rx="1" transform="rotate(90 13 6)" fill="black" />
+					<path d="M12.5657 8.56569L16.75 12.75C17.1642 13.1642 17.8358 13.1642 18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25L12.7071 5.70711C12.3166 5.31658 11.6834 5.31658 11.2929 5.70711L5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75C6.16421 13.1642 6.83579 13.1642 7.25 12.75L11.4343 8.56569C11.7467 8.25327 12.2533 8.25327 12.5657 8.56569Z" fill="black" />
+				</svg>
+			</span>
+		</div>
+		<div class="modal fade" id="modalAddTask" tabindex="-1" aria-modal="true" role="dialog" style="display: none;">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header pb-0 border-0 justify-content-end">
+						<div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal" aria-label="Close">
+							<span class="svg-icon svg-icon-1">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black"></rect>
+									<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black"></rect>
+								</svg>
+							</span>
+						</div>
+					</div>
+					<div class="modal-body scroll-y mx-5 mx-xl-18 pt-0 pb-15">
+						<form action="">
+							<div>
+								<label for="">Название задачи</label>
+								<input type="text" class="form-control mt-4">
+							</div>
+							<div class="mt-4">
+								<label for="">Описание</label>
+								<textarea name="" class="form-control mt-4" id="" cols="30" rows="4"></textarea>
+							</div>
+							<div class="row mt-4">
+								<div class="col-6">
+									<div>
+										<label for="">С какого </label>
+										<input type="date" class="form-control mt-4">
+									</div>
+								</div>
+								<div class="col-6">
+									<div>
+										<label for="">До какого </label>
+										<input type="date" class="form-control mt-4">
+									</div>
+								</div>
+							</div>
+							<div class="d-flex mt-4">
+								<button class="btn btn-secondary me-4" type="reset">Очистить</button>
+								<button class="btn btn-success" data-bs-dismiss="modal">Добавить</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>var hostUrl = "assets/";</script>
+		<script src="assets/plugins/global/plugins.bundle.js"></script>
+		<script src="assets/js/scripts.bundle.js"></script>
+		<script src="assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
+		<script src="assets/js/custom/widgets.js"></script>
+		<script src="assets/js/custom/apps/chat/chat.js"></script>
+		<script src="assets/js/custom/modals/create-app.js"></script>
+		<script src="assets/js/custom/modals/upgrade-plan.js"></script>
+	</body>
+</html>

@@ -1,0 +1,41 @@
+.custom-list {
+    display: flex;
+    margin-top: 10px;
+}
+.custom-list li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.custom-list li a {
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.custom-list li a:hover {
+    color: #694BF5;
+}
+.btn.btn-primary{
+    background-color: #694BF5;
+}
+#index{
+    text-align: center;
+}
+#index .card-body .fs-2hx  {
+    font-size: 20px !important;
+    margin-bottom: 10px;
+}
+.header-fixed.toolbar-fixed .wrapper{
+    padding-top: 60px;
+}
+#index h1 {
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+#index small {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
